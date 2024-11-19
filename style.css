@@ -1,0 +1,49 @@
+p {
+    color: blue;
+}
+
+.example-class {
+    color: green;
+}
+
+#example-id {
+    color: red;
+}
+
+a[title] {
+    color: orange;
+}
+
+a[href$=".png"] {
+    text-decoration: none;
+    color: aqua;
+}
+
+div .nested {
+    color: purple;
+}
+
+
+div > p {
+    color: yellow;
+}
+
+ul li {
+    color: brown;
+}
+
+p.combo {
+    color: pink;
+}
+
+p#combo-id {
+    color: teal;
+}
+
+div.container p.example[title] {
+    color: #2bd82b;
+}
+h2 + pre{
+    color: brown;
+}
+

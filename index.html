@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Селектори та їх вага</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <p>Селектор тегу p, вага 1</p>
+
+  <div class="example-class">Селектор класу .example-class, вага 10</div>
+
+  <div id="example-id">Селектор id #example-id, вага 100</div>
+
+  <a href="#" title="example">Селектор атрибуту a[title], вага 11</a>
+
+  <div>
+    <a href="image.png">Селектор атрибуту href, який шукає атрибут з закінченням ".png", вага 11 </a>
+  </div>
+
+  <div>
+    <span class="nested">Вкладений селектор div .nested,  вага 11</span>
+  </div>
+
+  <div>
+    <p>Застосовується до тегів p, вкладених у div, на першому рівні, вага 2</p>
+  </div>
+
+  <ul>
+    <li>Використовується послідовність селекторів ul li, вага 2</li>
+  </ul>
+
+  <p class="combo">Комбінація селекторів тег/класс section.combo, вага 11</p>
+
+  <p id="combo-id">Комбінація селекторів р та ід-тегу combo-id, вага 101</p>
+
+  <div class="container">
+    <p class="example" title="text" >Комбінація селекторів div.container p.example[title], вага 32</p>
+  </div>
+
+  <div>
+    <h2>Параграф</h2>
+    <pre>Послідовність селекторів, перший параграф після div змінить колір, вага 2 </pre>
+    <pre>Другий параграф не змінеться </pre>
+  </div>
+
+</body>
+</html>
