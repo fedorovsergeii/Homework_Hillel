@@ -1,0 +1,69 @@
+
+.table  {
+    width: 100%;
+    height: 100%;
+    border: 4px solid black;
+    border-collapse: collapse;
+
+tr td {
+    border: 4px solid black;
+}
+
+}
+.body {
+    width: 800px;
+    height: 800px;
+}
+.td_min{
+    width: 5%;
+}
+
+.td_min_but{
+    height: 20%;
+    background: red;
+}
+.table2_1 {
+    width: 100%;
+    height: 88%;
+    border: 4px solid black;
+    border-collapse: collapse;
+}
+.table2 {
+    width: 100%;
+    height: 12%;
+    border: 4px solid black;
+    border-collapse: collapse;
+}
+
+.td_min_2 {
+    width: 13%;
+}
+.square_red {
+    background-color: red;
+}
+
+.black_square {
+    background-color: black;
+}
+.recr_yelou_gorizont {
+    background-color: yellow;
+}
+.square_yelow {
+    background-color: yellow;
+}
+.table5 {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.rect_gor_black {
+    background-color: black;
+}
+.rect_blue {
+    background-color: #3232c7;
+}
+
+.collsp_min {
+    height: 10%;
+}
