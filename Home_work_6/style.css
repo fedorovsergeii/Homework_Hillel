@@ -1,4 +1,8 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
 .table  {
     width: 100%;
     height: 100%;
@@ -13,13 +17,14 @@ tr td {
 .body {
     width: 800px;
     height: 800px;
+    margin: auto;
 }
 .td_min{
     width: 5%;
 }
 
 .td_min_but{
-    height: 20%;
+    height: 27%;
     background: red;
 }
 .table2_1 {
@@ -37,19 +42,25 @@ tr td {
 
 .td_min_2 {
     width: 13%;
+
 }
 .square_red {
     background-color: red;
+    width: 50%;
+    height: 100%;
 }
 
 .black_square {
     background-color: black;
+    height: 15%;
+    width: 27%;
 }
 .recr_yelou_gorizont {
     background-color: yellow;
 }
 .square_yelow {
     background-color: yellow;
+    height: 30%;
 }
 .table5 {
     width: 100%;
@@ -65,5 +76,20 @@ tr td {
 }
 
 .collsp_min {
-    height: 10%;
+    height: 20%;
+}
+.square_gor_yellow {
+    background-color: yellow;
+
+}
+.td1 {
+    width: 25%;
+}
+.td2 {
+    height: 25%;
+}
+
+.td3 {
+    width: 38%;
+    height: 50%
 }
