@@ -4,8 +4,8 @@
     background: aquamarine;
     font-size: 25px;
     color: white;
-    height: 100px;
-    line-height: 40px;
+    height: 150px;
+    line-height: 10px;
 
     padding: 0 20px;
 }
@@ -28,6 +28,7 @@
     list-style: none;
     display: inline;
     margin: 35px;
+    float: left;
 }
 
 .list{
@@ -84,5 +85,24 @@
 .hidden {
     overflow: hidden;
 }
-
-
+.paragraph {
+    font-size: 30px;
+    color: black;
+    margin: 10px;
+}
+.image1 {
+    float: left;
+    margin: 0 10px;
+}
+.clear {
+    clear: left;
+}
+.image {
+    float: right;
+}
+h1 {
+    font-size: 50px;
+}
+h1~h2{
+    font-size: 30px;
+}
