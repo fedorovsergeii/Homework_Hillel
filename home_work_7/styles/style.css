@@ -1,4 +1,10 @@
 
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 1240px;
+}
+
 .page-footer {
     margin: 0 auto;
     background: aquamarine;
@@ -9,17 +15,15 @@
 
     padding: 0 20px;
 }
-.container body {
-    margin: 0 auto;
-    padding: 0;
-}
+
 
 .container {
     align-items: center;
     width: 1200px;
-    margin: 0 10px;
+    margin: 0 auto;
     padding: 0 10px;
 }
+
 .page-footer a {
     text-decoration: none;
 }
@@ -50,6 +54,7 @@
     padding: 0 10px;
     font-weight: bold;
 }
+
 .result_text span {
     color: blue;
 }
@@ -85,24 +90,235 @@
 .hidden {
     overflow: hidden;
 }
+
 .paragraph {
     font-size: 30px;
     color: black;
     margin: 10px;
 }
+
 .image1 {
     float: left;
     margin: 0 10px;
 }
+
 .clear {
     clear: left;
 }
+
 .image {
     float: right;
 }
+
 h1 {
     font-size: 50px;
 }
+
 h1~h2{
     font-size: 30px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.inline {
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    margin: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.flex {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    margin: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.box_block {
+    display: block;
+}
+
+.box_inline {
+    display: inline;
+}
+
+.box_flex {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content h2 {
+    margin-left: 50px;
+}
+.content_block {
+    border: 4px solid black;
+    margin: 0 50px;
+    padding: 50px;
+    width: 400px;
+    height: 200px;
+    box-sizing: content-box;
+    background-color: lightcoral;
+}
+
+.content_block1 {
+    border: 4px solid black;
+    margin: 0 50px;
+    padding: 50px;
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: lightcoral;
+}
+.content p {
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.static-box {
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.relative-box {
+    background-color: #6aca6a;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 80%;
+    border: 2px solid black;
+    margin-bottom: 40px;
+}
+
+.absolute_box_header {
+    position: relative;
+    height: 200px;
+    border: 2px solid black;
+    background: #97e397;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fixed-box {
+    background-color: #e6e60f;
+    width: 150px;
+    height: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sticky-box {
+    background-color: lightpink;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 5px;
+    width: 100px;
+    float: left;
+    margin: 5px;
+}
+
+.absolute-box {
+    background-color: lightcoral;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.menu {
+    font-size: 30px;
+    background-color: #87a3ea;
+    position: relative;
+    margin-top: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    padding-left: 10px;
+}
+
+.menu_item1 {
+    width: 500px;
+    height: 80px;
+    background-color: red;
+    position: relative;
+    z-index: 6;
+}
+
+.menu_item2 {
+    width: 550px;
+    height: 80px;
+    background-color: yellow;
+    position: relative;
+    bottom: 20px;
+    z-index: 5;
+}
+
+.menu_item3 {
+    width: 600px;
+    height: 80px;
+    background-color: blue;
+    position: relative;
+    bottom: 40px;
+    z-index: 4;
+}
+
+.menu_item4 {
+    width: 650px;
+    height: 80px;
+    background-color: green;
+    position: relative;
+    bottom: 60px;
+    z-index: 3;
+}
+
+.menu_item5 {
+    width: 700px;
+    height: 80px;
+    background-color: lightcoral;
+    position: relative;
+    bottom: 80px;
+    z-index: 2;
+}
+
+.menu_item6 {
+    width: 750px;
+    height: 80px;
+    background-color: darkorchid;
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.menu h1 {
+    padding-left: 20px;
 }
