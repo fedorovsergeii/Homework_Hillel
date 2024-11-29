@@ -1,0 +1,122 @@
+
+body {
+    margin: 0;
+    padding: 0 20px;
+}
+div {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.block {
+    width: 200px;
+    height: 60px;
+    background-color: #a2aaa2;
+    box-sizing: border-box;
+}
+.block__first {
+    width:calc(100% - 120px);
+    height: 60px;
+    background-color: #e1eae1;
+    margin: 20px;
+    padding: 20px 40px;
+    min-width: 800px;
+}
+
+.block__first--1 {
+    float: left;
+}
+
+.block__first--2 {
+    float: right;
+}
+
+.block__second {
+    width:calc(100% - 120px);
+    height: 60px;
+    background-color: #e1eae1;
+    margin: 20px;
+    padding: 20px 40px;
+    min-width: 800px;
+}
+
+.block__second--1 {
+    float: left;
+}
+
+.block__second--2 {
+    float: right;
+    margin-left: 40px;
+}
+
+.block__third--1 {
+    float: left;
+    margin-left: 40px;
+}
+
+.block__fourth {
+    width:calc(100% - 120px);
+    height: 145px;
+    background-color: #e1eae1;
+    margin: 20px;
+    padding: 20px 40px;
+    min-width: 800px;
+}
+
+.block_big {
+    width: 200px;
+    height: 145px;
+    background-color: #a2aaa2;
+    box-sizing: border-box;
+}
+
+.block__fourth--2 {
+    margin-left: calc(100% - 200px )
+}
+
+.block__fourth--1 {
+    float: right;
+    margin-right: 240px ;
+}
+
+.block__fourth--3 {
+    margin-top: 20px;
+    margin-left: calc(100% - 200px )
+}
+
+.block__fifth {
+    width:calc(100% - 120px);
+    height: 145px;
+    background-color: #e1eae1;
+    margin: 20px;
+    padding: 20px 40px;
+    min-width: 800px;
+}
+.block__fifth--1 {
+    width: 300px;
+    height: 145px;
+    background-color: #a2aaa2;
+    box-sizing: border-box;
+    float: right;
+    margin-right: calc(50% + 20px)
+}
+
+.block__fifth--2 {
+    width: 300px;
+    height: 60px;
+    background-color: #a2aaa2;
+    box-sizing: border-box;
+    margin-left: calc(50% + 20px);
+}
+
+.block__fifth--3 {
+    width: 300px;
+    height: 60px;
+    background-color: #a2aaa2;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: calc(50% + 20px);
+}
+
