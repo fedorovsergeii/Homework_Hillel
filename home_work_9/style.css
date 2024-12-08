@@ -3,6 +3,9 @@
     --description-color: #727272;
     --project-color:#34547A;
 }
+* {
+    box-sizing: border-box;
+}
 
 body {
 font-family: "Roboto", sans-serif;
@@ -33,7 +36,7 @@ font-weight: 400;
     color: #000000;
 }
 
-a:hover {
+.list__item a:hover {
     color: #34547A;
     font-weight: 500;
 }
@@ -60,14 +63,67 @@ a:hover {
     background-color: var(--project-color);
     height: 65px;
     width: 225px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    line-height: 26px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.button__text {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    height: 25px ;
+}
+
 .header__content {
-    padding-bottom: 161px;
+    padding-bottom: 140px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 540px;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+.about h2{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.description {
+    color: var(--description-color);
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.025em;
+}
+
+.project__container {
+    background: var(--project-color);
+    padding: 100px 0;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    gap: 49px;
+}
+
+.project__item {
+    color: #FFFFFF ;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 141px;
+    background: no-repeat url("./assets/project.svg");
+    padding-left: 70px;
+    letter-spacing: 0.05em;
+}
+
+.project__item span {
+    font-size: 21px;
 }
